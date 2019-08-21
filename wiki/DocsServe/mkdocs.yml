@@ -1,0 +1,20 @@
+site_name: My Docs
+
+docs_dir: 'D:\YandexDisk\django_project\django2server\wiki\DocsServe\docs\'
+site_dir: 'D:\YandexDisk\django_project\django2server\docs_serve_build\static\docs_serve_build\'
+dev_addr: 127.0.0.1:8010
+
+theme: readthedocs
+
+markdown_extensions:
+    - toc:
+        permalink: True
+
+nav:
+  - Главная:
+    - Django:
+        - План: django\django_index.md
+    - Other:
+        - План: other\marcdown_help.md
+    - Serve:
+        - План: serve\serve_index.md
